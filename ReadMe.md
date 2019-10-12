@@ -3,6 +3,9 @@ Dataset Link: https://drive.google.com/open?id=1LMZOq-8wsXgox_4yIdU2Z_GMhKYhiTKM
 
 Image Augmentation was used to increase the datset size and to increase variance in each class by rotating, resizing, shifting, shearing and so.
 
+## A General ML Framework:
+![](https://github.com/E-B-Manohar/Black-Hole-Source/blob/master/Images/References/DS/a%20general%20ml%20model.png)
+
 ## Summary
 Object Classification Transfer Learning Model Comparision Report.pdf
 (The training is done using Google's Colab using GPUs.)
@@ -20,3 +23,19 @@ categorical_crossentropy - since the problem statement is about classifing the i
 ## Accuracy
 The validation accuracy of various models are very high as the transfer learning method is used. The reason for this is the pretrained models has already figured out most of the features by understanding 1000 class images with lot of variance.
 Because of this reason, the training time is short and the best results are achieved from vey less number of epochs.
+
+# Model Comparisons:
+Xception Performance:
+![](https://github.com/E-B-Manohar/Object-Classification-with-Keras-using-Transfer-Learning/blob/master/Xception%20Accuracy%20Result.png)
+
+MobileNetV2 Performance:
+![](https://github.com/E-B-Manohar/Object-Classification-with-Keras-using-Transfer-Learning/blob/master/MobileNetV2%20Accuracy%20Result.png)
+
+FaceNet Performance:
+![](https://github.com/E-B-Manohar/Object-Classification-with-Keras-using-Transfer-Learning/blob/master/FaceNet%20Accuracy%20Result.png)
+
+
+
+Conclusion:
+Xception is the best Neural Network that has understood most of the complex kernals/filters/features of wide range of images. 
+MobileNet is built for mobile application 
