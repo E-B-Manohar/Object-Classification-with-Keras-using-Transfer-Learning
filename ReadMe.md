@@ -38,4 +38,9 @@ FaceNet Performance:
 
 Conclusion:
 Xception is the best Neural Network that has understood most of the complex kernals/filters/features of wide range of images. 
-MobileNet is built for mobile application 
+Xception is Inception inspired model and has various applications to recognize wide set of images.
+
+MobileNetV2 is obviously built for portable devices like smart phones, surveillance devices to track objects and recognize them.
+Hence the small memory size.
+
+FaceNet is mainly focused on detecting various faces and clustering the similar faces in applications like Face Clustering. Clearly, the features/kernals learnt are for only faces, yet the trainability has resulted in such great performance.
