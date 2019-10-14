@@ -19,6 +19,8 @@ Custom NN (~10 layer NN, trained for hours with lots of epochs. Reason is that t
 
 ## Loss function
 categorical_crossentropy - since the problem statement is about classifing the images and there are more than 2 classes or multiclasses.
+![](https://github.com/E-B-Manohar/Black-Hole-Source/blob/master/Images/References/DS/crossentropy%20form.png)
+![](https://github.com/E-B-Manohar/Black-Hole-Source/blob/master/Images/References/DS/crossentropy.png)
 
 ## Accuracy
 The validation accuracy of various models are very high as the transfer learning method is used. The reason for this is the pretrained models has already figured out most of the features by understanding 1000 class images with lot of variance.
